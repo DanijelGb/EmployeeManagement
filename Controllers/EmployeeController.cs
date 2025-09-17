@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using EmployeeManagement.Models;
+using Serilog;
 
 namespace EmployeeManagement.Controllers
 {
@@ -9,10 +10,13 @@ namespace EmployeeManagement.Controllers
     public class EmployeeController : ControllerBase
     {
         private readonly EmployeeContext _context;
+        private readonly IDiagnosticContext _diagnosticContext;
 
-        public EmployeeController(EmployeeContext context)
+        public EmployeeController(EmployeeContext context, IDiagnosticContext diagnosticContext)
         {
             _context = context;
+            _diagnosticContext = diagnosticContext ??
+                throw new ArgumentNullException(nameof(diagnosticContext));
         }
 
         // GET: api/EmployeeManagement

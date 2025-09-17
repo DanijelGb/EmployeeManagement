@@ -275,3 +275,12 @@ C:\Users\DaciBaci\source\repos\EmployeeManagement\obj\Debug\net9.0\EmployeeManag
 C:\Users\DaciBaci\source\repos\EmployeeManagement\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\DaciBaci\source\repos\EmployeeManagement\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\DaciBaci\source\repos\EmployeeManagement\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\DaciBaci\source\repos\EmployeeManagement\bin\Debug\net9.0\Serilog.dll
+C:\Users\DaciBaci\source\repos\EmployeeManagement\bin\Debug\net9.0\Serilog.AspNetCore.dll
+C:\Users\DaciBaci\source\repos\EmployeeManagement\bin\Debug\net9.0\Serilog.Extensions.Hosting.dll
+C:\Users\DaciBaci\source\repos\EmployeeManagement\bin\Debug\net9.0\Serilog.Extensions.Logging.dll
+C:\Users\DaciBaci\source\repos\EmployeeManagement\bin\Debug\net9.0\Serilog.Formatting.Compact.dll
+C:\Users\DaciBaci\source\repos\EmployeeManagement\bin\Debug\net9.0\Serilog.Settings.Configuration.dll
+C:\Users\DaciBaci\source\repos\EmployeeManagement\bin\Debug\net9.0\Serilog.Sinks.Console.dll
+C:\Users\DaciBaci\source\repos\EmployeeManagement\bin\Debug\net9.0\Serilog.Sinks.Debug.dll
+C:\Users\DaciBaci\source\repos\EmployeeManagement\bin\Debug\net9.0\Serilog.Sinks.File.dll
